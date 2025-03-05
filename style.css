@@ -183,12 +183,12 @@ header {
 
 .fade-out {
   opacity: 0;
-  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  transition: opacity 0.3s ease-out;
 }
 
 .fade-in {
   opacity: 0;
-  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  transition: opacity 0.3s ease-out;
 }
 
 .fade-in.show {
