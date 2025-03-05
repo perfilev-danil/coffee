@@ -3,7 +3,6 @@ const title = document.querySelector(".title h1");
 const topic = document.querySelector(".topic h2");
 const info = document.querySelector(".info");
 const fact = document.querySelector(".fact-content p");
-const fact_name = document.querySelector(".fact-name");
 
 const buttons = document.querySelectorAll(".orange-round-button");
 
@@ -47,7 +46,7 @@ buttons.forEach((button, index) => {
     buttons.forEach((btn) => btn.classList.remove("active"));
     button.classList.add("active");
 
-    const elements = [num, title, topic, info, fact, fact_name];
+    const elements = [num, title, topic, info, fact, img, video];
 
     elements.forEach((el) => el.classList.remove("show"));
 
