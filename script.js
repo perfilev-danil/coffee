@@ -64,6 +64,6 @@ buttons.forEach((button, index) => {
       window.scrollTo({
         top: 0,
       });
-    }, 300);
+    }, 400);
   });
 });
