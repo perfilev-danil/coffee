@@ -1,20 +1,20 @@
 @font-face {
   font-family: "CeraPro";
-  src: url("./fonts/CeraPro-Regular.ttf") format("truetype");
+  src: url("./public/fonts/CeraPro-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "CeraPro";
-  src: url("./fonts/CeraPro-Medium.ttf") format("truetype");
+  src: url("./public/fonts/CeraPro-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "CeraPro";
-  src: url("./fonts/CeraPro-Italic.ttf") format("truetype");
+  src: url("./public/fonts/CeraPro-Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
