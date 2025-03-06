@@ -18,7 +18,6 @@ const data = [
     fact: "В данной кофемашине используется непревычный на вид шестерёнчатый насос, он проталкивает воду с помощью вращающихся шестерней.",
     video: "./public/videos/1.mp4",
     img: "./public/images/gear.png",
-    poster: "./public/images/cover_1.png",
   },
   {
     num: "2",
@@ -28,7 +27,6 @@ const data = [
     fact: "Конус мельницы двигается медленно и поэтому не перегревается при работе. Это помогает сохранить вкус кофе.",
     video: "./public/videos/2.mp4",
     img: "./public/images/grinder.png",
-    poster: "./public/images/cover_2.png",
   },
   {
     num: "3",
@@ -38,7 +36,6 @@ const data = [
     fact: "Некоторые из первых эспрессо-машин использовали для перколяции поршни, прикрепленные к большим рычагам. Бариста приходилось вручную тянуть эти рычаги, чтобы заставить воду проходить через кофе. Отсюда и термин Pull an espresso.",
     video: "./public/videos/3.mp4",
     img: "./public/images/perk.png",
-    poster: "./public/images/cover_3.png",
   },
 ];
 
@@ -60,10 +57,7 @@ buttons.forEach((button, index) => {
       info.innerHTML = data[index].info;
       fact.textContent = data[index].fact;
       img.src = data[index].img;
-
       video.src = data[index].video;
-      video.poster = data[index].poster;
-      video.load();
 
       elements.forEach((el) => el.classList.add("show"));
 
