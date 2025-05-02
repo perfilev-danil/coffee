@@ -123,7 +123,7 @@ header {
 }
 
 .topic {
-  width: 22%;
+  width: 20%;
 
   display: flex;
   flex-direction: column;
@@ -135,8 +135,8 @@ header {
 }
 
 .topic-video {
-  width: 22vw;
-  height: 22vw;
+  width: 20vw;
+  height: 20vw;
   border: none;
   border-radius: 100%;
   background-color: white;
@@ -170,8 +170,8 @@ header {
 }
 
 .fact-img {
-  width: 14vw;
-  height: 14vw;
+  width: 15vw;
+  height: 15vw;
   background-color: white;
   border: none;
   object-fit: cover;
