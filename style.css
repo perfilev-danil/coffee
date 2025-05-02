@@ -123,7 +123,7 @@ header {
 }
 
 .topic {
-  width: 20%;
+  width: 22%;
 
   display: flex;
   flex-direction: column;
@@ -135,8 +135,8 @@ header {
 }
 
 .topic-video {
-  width: 20vw;
-  height: 20vw;
+  width: 21vw;
+  height: 21vw;
   border: none;
   border-radius: 100%;
   background-color: white;
