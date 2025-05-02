@@ -35,7 +35,7 @@ const data = [
     title: "Перколяция",
     topic: '"Как превратить кипяток и зёрна в бодрящий напиток?"',
     info: `В основе приготовления кофе лежит <span class="term">перколяция</span> - процесс протекания жидкости через пористые материалы. Горячая вода под давлением проходит через измельченные кофейные зёрна. Растворимые компоненты извлекаются из молотых зёрен и попадают в воду, создавая напиток. Нерастворимая часть остается в фильтре и выбрасывается.`,
-    fact: 'Ранние некоторые эспрессо-машины использовали поршни с рычагами — бариста вручную тянул их, пропуская воду через кофе. Отсюда и выражение "pull an espresso".',
+    fact: `Ранние некоторые эспрессо-машины использовали поршни с рычагами — бариста вручную тянул их, пропуская воду через кофе. Отсюда и выражение <i>"pull an espresso"</i>.`,
     video: "./public/videos/3.mp4",
     img: "./public/images/perk.png",
     poster: "./public/images/cover_3.png",
@@ -58,7 +58,7 @@ buttons.forEach((button, index) => {
       title.textContent = data[index].title;
       topic.textContent = data[index].topic;
       info.innerHTML = data[index].info;
-      fact.textContent = data[index].fact;
+      fact.innerHTML = data[index].fact;
       img.src = data[index].img;
 
       video.src = data[index].video;
