@@ -64,7 +64,7 @@ p {
 main {
   flex: 1;
 
-  padding: 4vw 2vw;
+  padding: 4vw 0vw;
 
   display: flex;
   flex-direction: column;
@@ -123,7 +123,7 @@ header {
 }
 
 .topic {
-  width: 22%;
+  width: 23%;
 
   display: flex;
   flex-direction: column;
@@ -135,8 +135,8 @@ header {
 }
 
 .topic-video {
-  width: 21vw;
-  height: 21vw;
+  width: 23vw;
+  height: 23vw;
   border: none;
   border-radius: 100%;
   background-color: white;
@@ -198,7 +198,7 @@ header {
 }
 
 .orange-round-button.active {
-  box-shadow: inset 0 1vw 1vw rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 1vw 1vw rgba(0, 0, 0, 0.3);
 }
 
 .orange-round-button > img {
@@ -210,8 +210,6 @@ header {
   height: 4vw;
   width: 4vw;
 }
-
-/* */
 
 .fade-out {
   opacity: 0;
@@ -226,129 +224,3 @@ header {
 .fade-in.show {
   opacity: 1;
 }
-
-/* */
-/*
-
-
-@media (max-width: 768px) {
-  body {
-    padding-top: 4vh;
-    padding-bottom: 16vh;
-  }
-
-  h1 {
-    font-size: 3.5vh;
-  }
-
-  h2 {
-    font-size: 2.5vh;
-  }
-
-  p {
-    font-size: 2.5vh;
-  }
-
-  .orange-round {
-    width: 6vh;
-    height: 6vh;
-
-    font-size: 3vh;
-  }
-
-  header {
-    gap: 0;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-
-  .title {
-    gap: 2vh;
-    order: 1;
-    align-self: flex-start;
-  }
-
-  .header-title {
-    font-size: 4vh;
-    text-align: center;
-    margin-bottom: 4vh;
-    order: 0;
-  }
-
-  .content {
-    flex-direction: column;
-    gap: 0vh;
-    margin: 0;
-    margin-top: 4vh;
-  }
-
-  .topic {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .topic h2 {
-    min-height: 0;
-    width: 60%;
-    align-self: flex-end;
-  }
-
-  .topic-video {
-    margin-top: 0;
-    width: 40vh;
-    height: 40vh;
-    margin: 6vh 0;
-    align-self: center;
-  }
-
-  .fact {
-    align-items: center;
-    flex-direction: column;
-    gap: 0vh;
-  }
-
-  .fact-content {
-    order: 1;
-  }
-
-  .fact-content h1 {
-    margin-bottom: 1vh;
-  }
-
-  .fact-img {
-    width: 40vh;
-    height: 40vh;
-    order: 0;
-    margin: 6vh 0;
-  }
-
-  .buttons {
-    background-color: white;
-    width: 100%;
-    padding: 1.8vh 0;
-    justify-content: center;
-    gap: 4vh;
-
-    position: fixed;
-    bottom: 0vh;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .buttons img {
-    width: 4vh;
-    height: 4vh;
-  }
-
-  .orange-round-button {
-    width: 6vh;
-    height: 6vh;
-  }
-
-  .orange-round-button.active {
-    box-shadow: 0 0 0 1vh var(--secondary);
-  }
-}
-
-
-*/
